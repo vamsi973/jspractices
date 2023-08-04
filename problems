@@ -1,0 +1,30 @@
+Single Number Lab
+In this lab, you will implement a function that solves the Single Number problem.
+ You must develop a solution with linear runtime complexity and use only constant extra space. 
+ Your function should work on a non-empty array of integers nums, where every element appears twice except for one. Find that single one.
+
+Problem Description
+Given an array of integers (nums), your task is to find the single element that appears only once in the array. All the other elements appear twice in the array.
+
+Examples
+Input: nums = [2,2,1] Output: 1
+
+Input: nums = [4,1,2,1,2] Output: 4
+
+Input: nums = [1] Output: 1
+
+Constraints
+1 <= nums.length <= 3 * 104
+-3 * 104 <= nums[i] <= 3 * 104
+Each element in the array appears twice except for one element which appears only once.
+Challenges
+Export a function named singleNumber with the required signature mentioned below. The function should solve the single number problem as described above.
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+function singleNumber(nums) {
+    // Your implementation here
+}
+Test your implementation with the provided test cases in the 'Examples' section of the lab description. Provide your solution with sufficient test cases to cover all possible scenarios and edge cases. Make sure your implementation passes these test cases.
+----------------------------------------------------------------------------------------------------------------------------------------
